@@ -1,0 +1,101 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Bubbles&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+
+@font-face {
+    font-family: my_fonts;
+    src: url(./fonts/RubikBubbles-Regular.ttf);
+    font-size: medium;
+}
+
+/* Убираем нижнее подчеркивание у ссылок */
+a {
+    text-decoration: none;  
+}
+
+.body {
+    font-family: my_fonts, Rubik Bubbles, sans-serif;
+}
+
+.reference {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.heading_1 {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+p {
+    color: chocolate;
+}
+
+.paragraf {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.heading_2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.request {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;    
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+.menu {
+    text-align: center;
+    margin: 2pc;
+    padding: auto;
+}
+
+.reference:hover {
+    color: rgb(97, 187, 7);
+}
+
+.reference:active {
+    background-color: #7D7987;
+}
+
+.card {
+    background-color: lightpink;
+}
+
+.card img {
+    width: 250px;
+    height: 200px;
+}
+
+.image {
+    float: left;
+    margin-right: 1rem;
+}
+
+.text {
+    display: inline;
+    margin-right: 1rem;
+}
