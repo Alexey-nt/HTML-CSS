@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: url(./img/Group\ 4.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+h1 {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 200px;
+  letter-spacing: 0em;
+  color: #0d302c;
+}
+p {
+  font-family: Roboto;
+}
+li {
+  list-style-type: none;
+  color: white;
+}
+a {
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 202px;
+}
+.logo {
+  width: 60px;
+  height: 63px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.serf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
