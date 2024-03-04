@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url(./img/Travel\ Time.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+.size {
+    width: 1440px;
+    height: 1024px;
+}
+
+.menu {
+  font-family: Poppins;
+  font-size: medium;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 88px;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: Poppins;
+  font-size: 96;
+  margin-top: 114px;
+  font-weight: 700;
+  font-size: 96px;
+  color: #fff;
+}
+
+.paragraph {
+  font-family: Poppins;
+  font-size: 24;
+  margin-top: -4px;
+  font-weight: 275;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 387px;
+}
+
+.button_effect {
+  font-family: Inter;
+  font-size: medium;
+  border: 1px solid #00b43d;
+  border-radius: 8px;
+  padding: 16px 28px;
+  width: 191px;
+  height: 60px;
+  box-shadow: 0 0 0 4px #fee4e2, 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  background: #00b43d;
+  color: white;
+}
